@@ -36,6 +36,9 @@ android {
 
 dependencies {
 
+    //Clean Architecture 종속성 연결
+    implementation project(':domain')
+
 
     // Retrofit2
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
