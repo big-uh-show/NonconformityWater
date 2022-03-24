@@ -14,7 +14,9 @@ buildscript {
 
     ext{
         retrofit_version = "2.9.0"
+        okhttp_version = "4.9.3"
         tikxml_version = "0.8.13"
+        hilt_version ="2.41"
     }
 }
 
